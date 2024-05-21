@@ -55,6 +55,7 @@ npm run db
 ```
 
 Caso de erro, dê um mkdir na pasta onde está o erro de path e rode a api novamente
+
 Exemplo:
 ```bash
 mkdir C:\Users\beatr\AppData\Roaming\npm

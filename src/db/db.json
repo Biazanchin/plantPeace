@@ -4,7 +4,10 @@
       "id": "2",
       "name": "Opuntia Microdasys",
       "subtitle": "The Bunny Ears Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "49.99",
       "isInSale": true,
       "discountPercentage": 15,
@@ -16,7 +19,10 @@
       "id": "3",
       "name": "Mammillaria Elongata",
       "subtitle": "Ladyfinger Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "34.99",
       "isInSale": true,
       "discountPercentage": 10,
@@ -28,7 +34,10 @@
       "id": "4",
       "name": "Gymnocalycium Mihanovichii",
       "subtitle": "Moon Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "29.99",
       "isInSale": false,
       "discountPercentage": 0,
@@ -40,7 +49,10 @@
       "id": "5",
       "name": "Astrophytum Asterias",
       "subtitle": "Star Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "79.99",
       "isInSale": true,
       "discountPercentage": 25,
@@ -52,7 +64,10 @@
       "id": "6",
       "name": "Echinopsis Pachanoi",
       "subtitle": "San Pedro Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "59.99",
       "isInSale": false,
       "discountPercentage": 0,
@@ -64,7 +79,10 @@
       "id": "7",
       "name": "Ariocarpus Fissuratus",
       "subtitle": "Living Rock Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "99.99",
       "isInSale": true,
       "discountPercentage": 20,
@@ -76,7 +94,10 @@
       "id": "8",
       "name": "Ferocactus Latispinus",
       "subtitle": "Devil's Tongue Barrel Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "69.99",
       "isInSale": true,
       "discountPercentage": 15,
@@ -88,7 +109,10 @@
       "id": "9",
       "name": "Parodia Magnifica",
       "subtitle": "Ball Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "39.99",
       "isInSale": true,
       "discountPercentage": 10,
@@ -100,7 +124,10 @@
       "id": "10",
       "name": "Cereus Peruvianus",
       "subtitle": "Peruvian Apple Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "89.99",
       "isInSale": false,
       "discountPercentage": 0,
@@ -112,7 +139,10 @@
       "id": "11",
       "name": "Notocactus Leninghausii",
       "subtitle": "Golden Ball Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "24.99",
       "isInSale": true,
       "discountPercentage": 10,
@@ -124,7 +154,10 @@
       "id": "12",
       "name": "Myrtillocactus Geometrizans",
       "subtitle": "Blue Myrtle Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "54.99",
       "isInSale": true,
       "discountPercentage": 15,
@@ -136,7 +169,10 @@
       "id": "13",
       "name": "Lophophora Williamsii",
       "subtitle": "Peyote Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "129.99",
       "isInSale": false,
       "discountPercentage": 0,
@@ -148,7 +184,10 @@
       "id": "13",
       "name": "Lophophora Williamsii",
       "subtitle": "Peyote Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "129.99",
       "isInSale": false,
       "discountPercentage": 0,
@@ -160,7 +199,10 @@
       "id": "14",
       "name": "Echinocactus Grusonii",
       "subtitle": "Golden Barrel Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "74.99",
       "isInSale": true,
       "discountPercentage": 20,
@@ -172,7 +214,10 @@
       "id": "15",
       "name": "Stenocereus Thurberi",
       "subtitle": "Organ Pipe Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "99.99",
       "isInSale": true,
       "discountPercentage": 15,
@@ -184,7 +229,10 @@
       "id": "16",
       "name": "Pachycereus Marginatus",
       "subtitle": "Mexican Fence Post Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "64.99",
       "isInSale": false,
       "discountPercentage": 0,
@@ -196,7 +244,10 @@
       "id": "17",
       "name": "Cleistocactus Strausii",
       "subtitle": "Silver Torch Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "44.99",
       "isInSale": true,
       "discountPercentage": 10,
@@ -208,7 +259,10 @@
       "id": "18",
       "name": "Espostoa Lanata",
       "subtitle": "Peruvian Old Man Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "74.99",
       "isInSale": true,
       "discountPercentage": 15,
@@ -220,7 +274,10 @@
       "id": "19",
       "name": "Acanthocereus Tetragonus",
       "subtitle": "Fairy Castle Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "34.99",
       "isInSale": true,
       "discountPercentage": 10,
@@ -232,7 +289,10 @@
       "id": "20",
       "name": "Echinopsis Subdenudata",
       "subtitle": "Easter Lily Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "39.99",
       "isInSale": true,
       "discountPercentage": 10,
@@ -244,7 +304,10 @@
       "id": "21",
       "name": "Astrophytum Myriostigma",
       "subtitle": "Bishop's Cap Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "69.99",
       "isInSale": false,
       "discountPercentage": 0,
@@ -256,7 +319,10 @@
       "id": "22",
       "name": "Mammillaria Bombycina",
       "subtitle": "Silken Pincushion Cactus",
-      "label": ["indoor", "cactus"],
+      "label": [
+        "indoor",
+        "cactus"
+      ],
       "price": "29.99",
       "isInSale": true,
       "discountPercentage": 10,

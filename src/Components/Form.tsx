@@ -92,6 +92,18 @@ const Form = () => {
     }));
   };
 
+  const handleFeaturesKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      const { value, selectionStart, selectionEnd } = e.currentTarget;
+      const newValue = value.slice(0, selectionStart) + ".\n" + value.slice(selectionEnd);
+      e.currentTarget.value = newValue;
+      setTimeout(() => {
+        e.currentTarget.selectionStart = e.currentTarget.selectionEnd = selectionStart + 2;
+      }, 0);
+    }
+  };
+
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const form = e.currentTarget;
@@ -340,6 +352,7 @@ const Form = () => {
                 className="mt-1 p-2 w-full border border-dark-gray rounded-md resize-none"
                 placeholder="Species: Echinocereus..."
                 onBlur={handleBlur}
+                onKeyDown={handleFeaturesKeyDown}
               ></textarea>
               {errors.features && (
                 <span className="text-red-500">{errors.features}</span>

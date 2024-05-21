@@ -36,7 +36,7 @@ O plantPeace é um site de plantas fictícias, nele você encontra 4 páginas: H
 ## Instalação ⚙️
 Faça o clone do projeto através do terminal de sua IDE de preferência
 ```bash
-git clone https://github.com/Aldovani/challenge-02-pb.git .
+git clone https://github.com/Biazanchin/plantPeace.git .
 ```
 
 Após isso instale as dependências necessárias

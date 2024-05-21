@@ -12,17 +12,17 @@ type StepsProps = {
 export function Steps({ variant }: StepsProps) {
   const variants: Record<string, Variant> = {
     sunlight: {
-      imageSrc: '../../public/SunLight.svg',
+      imageSrc: '/SunLight.svg',
       title: "SunLight",
       description: "Most plants need adequate sunlight to thrive. Place your plants in areas that receive the appropriate amount of light for their specific needs"
     },
     wattering: {
-      imageSrc: '../../public/Wattering.svg',
+      imageSrc: '/Wattering.svg',
       title: "Wattering",
       description: "water your plants when the top inch of soil feels dry to the touch. Avoid overwatering, as it can lead to root  dehydration."
     },
     NutrientsandFertilizing:{
-      imageSrc: '../../public/Nutrients and Fertilizing.svg',
+      imageSrc: '/Nutrients and Fertilizing.svg',
       title: "Nutrients and Fertilizing",
       description: "Choose a suitable fertilizer based on the specific needs of your plants, whether it's a balanced or specialized formula."
     }

@@ -7,7 +7,7 @@ export function SignIn() {
       <div className="grid lg:grid-cols-2 overflow-y-hidden min-h-screen ">
         <div className="hidden lg:block bg-[url(/bg-sign-in-page.png)] h-full bg-[100%] bg-cover"></div>
         <main className="flex items-center justify-center flex-col">
-          <img src={logo} alt="Logo platePeace" />
+          <img src={logo} alt="Logo plantPeace" />
           <h1 className="sm:text-64 text-4xl font-eb-garamond font-bold  text-primary-lunar-green">
             Welcome back
           </h1>

@@ -9,6 +9,13 @@ const Form = () => {
   const [errors, setErrors] = useState<FormErrors>({});
   const [successMessage, setSuccessMessage] = useState<string>("");
   const [selectedLabel, setSelectedLabel] = useState<string>("");
+  const imageUrls = [
+    "/plant1.png",
+    "/plant2.png",
+    "/plant3.png",
+    "/plant4.png",
+  ];
+  const [imageIndex, setImageIndex] = useState(0);
 
   const formatPrice = (value: string): string => {
     if (!value.startsWith("$")) {
@@ -157,7 +164,7 @@ const Form = () => {
         ),
         features: formData.get("features") as string,
         description: formData.get("description") as string,
-        imgUrl: "/plant4.jpg",
+        imgUrl: imageUrls[imageIndex],
       };
 
       try {

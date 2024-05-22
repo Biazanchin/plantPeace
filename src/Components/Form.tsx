@@ -10,10 +10,10 @@ const Form = () => {
   const [successMessage, setSuccessMessage] = useState<string>("");
   const [selectedLabel, setSelectedLabel] = useState<string>("");
   const imageUrls = [
-    "/plant1.png",
-    "/plant2.png",
-    "/plant3.png",
-    "/plant4.png",
+    "/plant1.jpg",
+    "/plant2.jpg",
+    "/plant3.jpg",
+    "/plant4.jpg",
   ];
   const [imageIndex, setImageIndex] = useState(0);
 
@@ -99,14 +99,18 @@ const Form = () => {
     }));
   };
 
-  const handleFeaturesKeyUp = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-    if (e.key === 'Enter') {
+  const handleFeaturesKeyDown = (
+    e: React.KeyboardEvent<HTMLTextAreaElement>,
+  ) => {
+    if (e.key === "Enter") {
       e.preventDefault();
       const { value, selectionStart, selectionEnd } = e.currentTarget;
-      const newValue = value.slice(0, selectionStart) + ".\n" + value.slice(selectionEnd);
+      const newValue =
+        value.slice(0, selectionStart) + ".\n" + value.slice(selectionEnd);
       e.currentTarget.value = newValue;
       setTimeout(() => {
-        e.currentTarget.selectionStart = e.currentTarget.selectionEnd = selectionStart + 2;
+        e.currentTarget.selectionStart = e.currentTarget.selectionEnd =
+          selectionStart + 2;
       }, 0);
     }
   };
@@ -175,6 +179,9 @@ const Form = () => {
           form.reset();
           setSelectedLabel("");
           setImageIndex((prevIndex) => (prevIndex + 1) % imageUrls.length);
+          setTimeout(() => {
+            setSuccessMessage("");
+          }, 3000);
         } else {
           setSuccessMessage("");
           console.error("Error sending data:", data);
@@ -360,7 +367,7 @@ const Form = () => {
                 className="mt-1 p-2 w-full border border-dark-gray rounded-md resize-none"
                 placeholder="Species: Echinocereus..."
                 onBlur={handleBlur}
-                onKeyUp={handleFeaturesKeyUp}
+                onKeyDown={handleFeaturesKeyDown}
               ></textarea>
               {errors.features && (
                 <span className="text-red-500">{errors.features}</span>

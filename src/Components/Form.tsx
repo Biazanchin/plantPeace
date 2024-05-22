@@ -174,6 +174,7 @@ const Form = () => {
           setSuccessMessage("Your plant has been registered successfully");
           form.reset();
           setSelectedLabel("");
+          setImageIndex((prevIndex) => (prevIndex + 1) % imageUrls.length);
         } else {
           setSuccessMessage("");
           console.error("Error sending data:", data);

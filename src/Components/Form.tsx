@@ -92,7 +92,7 @@ const Form = () => {
     }));
   };
 
-  const handleFeaturesKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+  const handleFeaturesKeyUp = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key === 'Enter') {
       e.preventDefault();
       const { value, selectionStart, selectionEnd } = e.currentTarget;
@@ -352,7 +352,7 @@ const Form = () => {
                 className="mt-1 p-2 w-full border border-dark-gray rounded-md resize-none"
                 placeholder="Species: Echinocereus..."
                 onBlur={handleBlur}
-                onKeyDown={handleFeaturesKeyDown}
+                onKeyUp={handleFeaturesKeyUp}
               ></textarea>
               {errors.features && (
                 <span className="text-red-500">{errors.features}</span>

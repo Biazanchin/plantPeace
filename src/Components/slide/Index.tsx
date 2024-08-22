@@ -25,7 +25,7 @@ export default function Index() {
             <Splide
               options={{
                 gap: "2rem",
-                perPage: 3,
+                perPage: 3.5,
                 perMove: 1,
                 arrows: false,
                 pagination: false,
@@ -62,7 +62,7 @@ export default function Index() {
             <Splide
               options={{
                 gap: "2rem",
-                perPage: 3,
+                perPage: 3.5,
                 perMove: 1,
                 arrows: false,
                 pagination: false,

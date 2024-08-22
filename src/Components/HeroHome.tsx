@@ -23,7 +23,7 @@ const HeroHome = () => {
           </p>
           <Button to="/products">Shop Now</Button>
           <a
-            href="/404"
+            href="/learn"
             className="hover:text-primary-lunar-green  cursor-pointer relative md:top-36 mt-6 mb-4 text-secondary-secondary text-sm font-raleway block"
           >
             Learn Gardening →

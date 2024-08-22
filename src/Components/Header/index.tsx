@@ -1,7 +1,7 @@
 import { UserButton } from "@clerk/clerk-react";
 import logo from "../../assets/logo.svg";
 import { ActiveLink } from "./ActiveLink";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const Header = () => {
@@ -11,10 +11,14 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-wisper">
-      <div className="container mx-auto  flex justify-between items-center p-2  ">
+    <header className="bg-wisper fixed top-0 left-0 w-full z-50">
+      <div className="container mx-auto  flex justify-between items-center p-2">
         <Link to="/">
-          <img className="cursor-pointer" src={logo} alt="Logo da Plant Pace" />
+          <img
+            className="cursor-pointer"
+            src={logo}
+            alt="Logo da Plant Peace"
+          />
         </Link>
         <div className="flex-1 flex justify-end lg:hidden">
           <button onClick={toggleMenu}>
